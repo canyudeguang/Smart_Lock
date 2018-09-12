@@ -1,0 +1,19 @@
+<!--
+===============================================================================
+
+  Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+===============================================================================
+-->
+
+<METACONFIG>
+    <attest_cert_params>
+        C=US
+        ST=California
+        L=San Diego
+        O=Qualcomm Technologies, Inc.
+        CN=Tool-Generated Attestation Certificate
+    </attest_cert_params>
+</METACONFIG>

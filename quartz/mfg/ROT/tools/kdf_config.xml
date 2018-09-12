@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--
+===============================================================================
+
+  Copyright (c) 2017 Qualcomm Technologies, Inc. All Rights Reserved.
+  Qualcomm Technologies Proprietary and Confidential.
+
+===============================================================================
+-->
+<kdf_descriptor>
+<!--
+    ***kdf setting to generate password***
+    op_code:        operation code 
+                        7:activation 
+                        8:revocation
+    oem_id:         oem id
+    model_id:       model id
+    otp_encryp_key: otp encryp key
+    dbg_enable:     debug flag
+                        0:disble, 1:enable
+    sw_input:       sw input
+-->
+    <op_code>0x8</op_code>
+    <oem_id>0x6FB2</oem_id>
+    <model_id>0xF350</model_id>
+    <otp_encryp_key>3c441d5a0ac5ec24fb7b0ded3ddcc250</otp_encryp_key>
+    <dbg_enable>0x1</dbg_enable>
+    <sw_input>00000000000000000000000000000001</sw_input>
+</kdf_descriptor>
+
+      
+

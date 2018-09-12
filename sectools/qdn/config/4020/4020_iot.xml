@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+
+  Copyright (c) 2013-2017 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+===============================================================================
+-->
+
+<tns:iot xmlns:tns="http://www.qualcomm.com/iot"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.qualcomm.com/iot ../xsd/iot.xsd">
+
+    <!-- This is for QCA4020 target -->
+    <metadata>
+        <chipset>4020</chipset>
+    </metadata>
+
+    <general_properties>
+        <msm_part>0x000160E1</msm_part>
+        <in_use_soc_hw_version>1</in_use_soc_hw_version>
+        <soc_hw_version>0x40030000</soc_hw_version>
+        <debug>0x0000000000000002</debug>
+    </general_properties>
+
+    <parsegen>
+        <image_types_list>
+            <image_type id='elf_has_ht'>
+                <elf_properties></elf_properties>
+            </image_type>
+        </image_types_list>
+    </parsegen>
+
+    <data_provisioning></data_provisioning>
+
+    <images_list>
+        <image sign_id="m4" name="m4.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000000</sw_id>
+            </general_properties_overrides>
+        </image>
+
+        <image sign_id="kf" name="kf.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000001</sw_id>
+            </general_properties_overrides>
+        </image>
+
+        <image sign_id="m0" name="m0.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000002</sw_id>
+            </general_properties_overrides>
+        </image>
+
+        <image sign_id="m4_golden" name="m4_golden.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000003</sw_id>
+            </general_properties_overrides>
+        </image>
+
+        <image sign_id="kf_golden" name="kf_golden.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000004</sw_id>
+            </general_properties_overrides>
+        </image>
+
+        <image sign_id="m0_golden" name="m0_golden.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000005</sw_id>
+            </general_properties_overrides>
+        </image>
+
+        <image sign_id="otp_patch_update" name="otp_patch_update.mbn" image_type="elf_has_ht">
+            <general_properties_overrides>
+                <sw_id>0x0000000000000006</sw_id>
+            </general_properties_overrides>
+        </image>
+    </images_list>
+
+</tns:iot>

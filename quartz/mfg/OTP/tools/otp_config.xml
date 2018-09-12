@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--
+===============================================================================
+
+  Copyright (c) 2017 Qualcomm Technologies, Inc. All Rights Reserved.
+  Qualcomm Technologies Proprietary and Confidential.
+
+===============================================================================
+firmware_region_write_disable:   0 :enable, 1:disable
+model_id:   0: do not set model id, not 0: set model id
+otp_profile: production, production_test, development
+if <pk_hash> is commented out, secure boot is disable
+if <pk_hash> i spresent, secure boot is enabled and pk_hash are set to OTP
+if <otp_encryp_key> is commented out, set oem_id and write random to otp_encryp_key 
+if <otp_encryp_key> is present, set oem_id and otp_encryp_key are set to OTP
+-->
+<otp_descriptor>
+<firmware_region_write_disable>0</firmware_region_write_disable>
+<model_id>0x0</model_id>
+<!-- <pk_hash>0110203040506070809001102030405060708090011020304050607080900102</pk_hash>  -->
+<!-- <otp_encryp_key>0102030405060708090a0b0c0d0e0f00</otp_encryp_key>  -->
+<otp_profile>development</otp_profile>
+</otp_descriptor>
+
+
+
+
