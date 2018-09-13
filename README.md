@@ -1,21 +1,24 @@
-SmartLock
-======
+#SmartLock
   This project is based on Qualcomm QCA4020 development board whose name is Smart Lock. The main objective of this demo is done
   by using an application on mobile phone to connect to the QCA4020 via BLE(Bluetooth Low Energy),and there will PWM wave output
   through GPIO of QCA4020,at the same time,servo motor will have angle change at different PWM situations.Actually the servo motor
   of this demo is designed to simulate a smart lock.
 
 
-Instruction:
+##Instruction:
 
-Hardware requirements
+###Hardware requirements
   QCA4020 development board, Servo motor
 
-Software requirements
+###Software requirements
+--------
 1)toolchain
-    The toochain can be downloaded from the ARM website at: https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
+--
+    The toochain can be downloaded from the ARM website at:
+        https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads  
     Add the path to toolchain binaries to 'PATH' environment variable.
 2)Python
+--
     Some of the support scripts are Python-based, Python 2.7.2, or higher. You can download the Python official website.
     After installation, add the path to python to 'PATH' environment variable.
 
