@@ -28,8 +28,8 @@ Software requirements
 
 Assembly Instructions
 -----------------------------------------------------------------------------
-    According to the above table, install the jumper of QCA4020 board. Note that J3 and J1 are for servo motor connecting  
-to QCA4020 board.  
+    According to the above table, install the jumper of QCA4020 board. Note that J3 and J1 are for servo  
+    motor connecting to QCA4020 board.  
 
 Usage Instructions
 --------------------------
