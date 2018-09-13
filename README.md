@@ -28,8 +28,8 @@ After installation, add the path to python to 'PATH' environment variable.
 
 Assembly Instructions
 -----------------------------------------------------------------------------
-    According to the above table, install the jumper of QCA4020 board. Note that J3 and J1 are for servo  
-    motor connecting to QCA4020 board.  
+Install the jumper of QCA4020 development kit and connect the servo motor to QCA4020 as described in the part  
+"Build/Assembly Instructions" of "CDB20_Project_Content_SmartLock.docx".
 
 Usage Instructions
 --------------------------
