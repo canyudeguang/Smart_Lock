@@ -23,13 +23,13 @@ Software requirements
 	  
 2)Python
 --
-    Some of the support scripts are Python-based, Python 2.7.2, or higher. You can download the Python official website.
+    Some of the support scripts are Python-based, Python 2.7.2, or higher. You can download the Python official website.  
     After installation, add the path to python to 'PATH' environment variable.  
 
 Assembly Instructions
 -----------------------------------------------------------------------------
-    According to the above table, install the jumper of QCA4020 board. Note that J3 and J1 are for servo motor connecting
-	to QCA4020 board.  
+    According to the above table, install the jumper of QCA4020 board. Note that J3 and J1 are for servo motor connecting  
+to QCA4020 board.  
 
 Usage Instructions
 --------------------------
